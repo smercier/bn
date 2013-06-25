@@ -1,0 +1,63 @@
+var installations = {
+"type": "FeatureCollection",                                                     
+"features": [
+{ "type": "Feature", "id": 0, "properties": { "id": 1, "nom": "Accueil Perthuis", "type": "ACC", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -72.118361881743894, 46.934016707022217 ] } }
+,
+{ "type": "Feature", "id": 1, "properties": { "id": 2, "nom": "Refuge le Philosore", "type": "REF", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -72.038879862724215, 46.929081548978502 ] } }
+,
+{ "type": "Feature", "id": 2, "properties": { "id": 3, "nom": "Refuge l'Orignal", "type": "REF", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.976318385568703, 46.957727729502864 ] } }
+,
+{ "type": "Feature", "id": 3, "properties": { "id": 4, "nom": "Accueil Mauvaise", "type": "ACC", "alt_m": null, "com": null, "contact":"<h4>Sur le rang Saguenay dans la Vallée Bras-du-Nord</h4>", "ḑescription":"<p>Accès aux sentiers :  Mauvaise et Philosore </p>", "services": "<table width=\"400px\" border=\"0\" cellpadding=\"6\"><tbody><tr><td width=\"180\" valign=\"top\"><ul><li><strong>Infrastructure</strong><strong> : </strong>Panneau d'information seulement</li><li><strong>Personnel :</strong> Non</li><li><strong><strong>Stationnement :</strong> </strong>Oui / gratuit</li><li><strong>Paiement :</strong> Vous devez vous rendre au <a href=\"#bat\">Bureau d'Accueil Principal</a> pour payer votre droit d'accès</li></ul></td><td width=\"180\" valign=\"top\"><ul><li><strong>Téléphone :</strong> Non</li><li><strong> Cellulaire :</strong> Non</li><li><strong>Électricité : </strong>Non</li><li><strong> Toilette : </strong>Toilettes sèches</li><li><strong>Eau potable :</strong> Non</li><li><strong>Douche :</strong> Non (seulement au <a href=\"#bat\">Bureau d'Accueil Principal</a>, 3$)</ul></li></td></tr></tbody></table>", "horaire":"<p>Aucun préposé sur place. <br />Pour le paiement de votre droit d'accès ou de votre location de refuge, vous devez vous rendre au <a href=\"#bat\">Bureau d'Accueil Principal</a>. <br />En hivers : Téléphonez au Bureau d'Accueil Touristique pour connaître l'état de la route d'accès qui peut être problématique.</p>", "image": "img/accueil_mauvaise.jpg" }, "geometry": { "type": "Point", "coordinates": [ -71.911048137456859, 46.967598045590279 ] } }
+,
+{ "type": "Feature", "id": 4, "properties": { "id": 5, "nom": "Acceil Cantin", "type": "ACC", "alt_m": null, "com": null, "ḑescription":"<p>Accès aux sentiers : La boucle du Montagne Art, Le Bras-du-Nord et La Mauvaise <br />Arrivée de la descente en canot</p>", "contact": "<h4>Rang Sainte-Croix (accès par le rang Saguenay) <br />418 337-3618</h4>", "services": "<table width=\"400px\" border=\"0\" cellpadding=\"6\"><tbody><tr><td width=\"180\" valign=\"top\"><ul><li><strong>Infrastructure</strong><strong> : </strong>Accueil secondaire</li><li><strong>Personnel :</strong> Oui, aux heures d'ouverture</li><li><strong><strong>Stationnement :</strong> </strong>Oui / gratuit</li><li><strong>Paiement :</strong> Comptant seulement</li></ul></td><td width=\"180\" valign=\"top\"><ul><li><strong>Téléphone :</strong> Oui</li><li><strong> Cellulaire :</strong> Signal bon</li><li><strong>Électricité : </strong>Oui</li><li><strong> Toilette : </strong>Toilettes sèches</li><li><strong>Eau potable :</strong> Non</li><li><strong>Douche :</strong> Non (seulement au <a href=\"#bat\">Bureau d'Accueil Principal</a>, 3$)</ul></li></td></tr></tbody></table>", "horaire":"<table width=\"400px\" border=\"2\" cellpadding=\"5\"><tbody><tr><td width=\"100px\" valign=\"top\" bgcolor=\"#FFFFFF\"><p><h4>Printemps</h4><br><strong>Semaine</strong><br>Accueil fermé *<br><strong>Fin de semaine</strong><br>De 10h à 14h</p></td><td width=\"100px\" valign=\"top\" nowrap=\"\" bgcolor=\"#FFFFFF\"><h4>Été</h4><br><strong>Semaine</strong><br>De 8h à 18h<br><strong>Fin de semaine</strong><br>De 8h à 18h </td><td width=\"100px\" valign=\"top\" nowrap=\"\" bgcolor=\"#FFFFFF\"><h4>Automne</h4><br><strong>Semaine</strong><br>Accueil fermé *<br><strong>Fin de semaine</strong><br>De 9h à 15h</td><td width=\"100px\" valign=\"top\" nowrap=\"\" bgcolor=\"#FFFFFF\"><h4>Hiver</h4><br><strong>Semaine</strong><br>Accueil fermé<br>Sauf du 21 déc. au 5 janv.<br><strong>Fin de semaine</strong><br>Accueil fermé *</td></tr></tbody></table><p>*Lorsque cet accueil est fermé, vous devez payer votre droit d'accès au <a href=\"#bat\">Bureau d'Accueil Principal</a>.</p>", "image": "img/accueil_cantin.jpg" }, "geometry": { "type": "Point", "coordinates": [ -71.846520018374122, 46.981624284240809 ] } }
+,
+{ "type": "Feature", "id": 5, "properties": { "id": 6, "nom": "Débarquadère Canot", "type": "DEC", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.84665916756866, 46.981253219725907 ] } }
+,
+{ "type": "Feature", "id": 6, "properties": { "id": 7, "nom": "Camping Etsanha", "type": "CAM", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.851640708675106, 46.995390777731139 ] } }
+,
+{ "type": "Feature", "id": 7, "properties": { "id": 7, "nom": "Chalet Etsanha", "type": "CHA", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.854535011888714, 46.994129158381625 ] } }
+,
+{ "type": "Feature", "id": 8, "properties": { "id": null, "nom": "Refuge le Montagne Art", "type": "REF", "alt_m": 350.0, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.86844993118487, 46.99880457126514 ] } }
+,
+{ "type": "Feature", "id": 9, "properties": { "id": null, "nom": "Camping de la Vallée", "type": "CAM", "alt_m": null, "com": "Accès en canot seulement" }, "geometry": { "type": "Point", "coordinates": [ -71.862698431209125, 47.025743855022505 ] } }
+,
+{ "type": "Feature", "id": 10, "properties": { "id": null, "nom": "Refuge la Yourt", "type": "REF", "alt_m": 300.0, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.883218298864534, 47.049195132342959 ] } }
+,
+{ "type": "Feature", "id": 11, "properties": { "id": null, "nom": "Belvédère de la Yourt", "type": "BEL", "alt_m": 300.0, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.882513276286858, 47.048935387182766 ] } }
+,
+{ "type": "Feature", "id": 12, "properties": { "id": null, "nom": "Halte de Canot", "type": "HAL", "alt_m": null, "com": "Accès à la Chute Delaney" }, "geometry": { "type": "Point", "coordinates": [ -71.878171821466452, 47.057952254886679 ] } }
+,
+{ "type": "Feature", "id": 13, "properties": { "id": null, "nom": "Refuge la Hutte", "type": "REF", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.89677143025898, 47.065132353243492 ] } }
+,
+{ "type": "Feature", "id": 14, "properties": { "id": null, "nom": "Refuge La Clairière", "type": "REF", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.898478327026012, 47.078806080605247 ] } }
+,
+{ "type": "Feature", "id": 15, "properties": { "id": null, "nom": "Refuge Le Draveur", "type": "REF", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.893450402853659, 47.080401658017877 ] } }
+,
+{ "type": "Feature", "id": 16, "properties": { "id": null, "nom": "L'Éclipse", "type": "YOU", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.896140620584248, 47.079269911248453 ] } }
+,
+{ "type": "Feature", "id": 17, "properties": { "id": null, "nom": "Le Phare", "type": "YOU", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.895955088328051, 47.078787527378182 ] } }
+,
+{ "type": "Feature", "id": 18, "properties": { "id": null, "nom": "La Nymphe", "type": "YOU", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.89502742704056, 47.077507354804268 ] } }
+,
+{ "type": "Feature", "id": 19, "properties": { "id": null, "nom": "L'Auréole", "type": "YOU", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.895379938329398, 47.076857991903779 ] } }
+,
+{ "type": "Feature", "id": 20, "properties": { "id": null, "nom": "La Fable", "type": "YOU", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.894285298011425, 47.077024970935341 ] } }
+,
+{ "type": "Feature", "id": 21, "properties": { "id": null, "nom": "La Muse", "type": "YOU", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.894340957688613, 47.078008291898939 ] } }
+,
+{ "type": "Feature", "id": 22, "properties": { "id": null, "nom": "Le Huart de Lune", "type": "YOU", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.893932786722587, 47.078713314476609 ] } }
+,
+{ "type": "Feature", "id": 23, "properties": { "id": null, "nom": "Le Repère", "type": "YOU", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.894619256074535, 47.079307017699918 ] } }
+,
+{ "type": "Feature", "id": 24, "properties": { "id": null, "nom": "Mise à l'eau canot", "type": "CAN", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.894452277042973, 47.075967437068833 ] } }
+,
+{ "type": "Feature", "id": 25, "properties": { "id": null, "nom": "Accueil Shannahan", "type": "ACC", "alt_m": null, "com": null, "contact":"<h4>Sur le rang Saguenay dans la Vallée Bras-du-Nord</h4>", "ḑescription":"<p>Accès aux sentiers : Bras-du-nord (et à la chute Delaney), Castors, Falaises, boucle de la hauteur <br />Départ de la descente en canot <br />Accès aux sentiers de vélo de montagne <br />Passerelle suspendue </p>", "services": "<table width=\"400px\" border=\"0\" cellpadding=\"6\"><tbody><tr><td width=\"180\" valign=\"top\"><ul><li><strong>Infrastructure</strong><strong> : </strong>Accueil secondaire</li><li><strong>Personnel :</strong> Oui, aux heures d'ouverture</li><li><strong><strong>Stationnement :</strong> </strong>Oui / gratuit</li><li><strong><strong>Location de raquettes :</strong> </strong>Oui</li><li><strong>Paiement :</strong> Comptant  et crédit seulement</li></ul></td><td width=\"180\" valign=\"top\"><ul><li><strong>Téléphone :</strong> Non</li><li><strong> Cellulaire :</strong> Signal faible</li><li><strong>Électricité : </strong>Non</li><li><strong> Toilette : </strong>Oui</li><li><strong>Eau potable :</strong> Non</li><li><strong>Douche :</strong> Non (seulement au <a href=\"#bat\">Bureau d'Accueil Principal</a>, 3$)</ul></li></td></tr></tbody></table>", "horaire":"<table width=\"400px\" border=\"2\" cellpadding=\"5\"><tbody><tr><td width=\"100px\" valign=\"top\" bgcolor=\"#FFFFFF\"><p><h4>Printemps</h4><br><strong>Semaine</strong><br>Accueil fermé *<br><strong>Fin de semaine</strong><br>De 9h à 16h30</p></td><td width=\"100px\" valign=\"top\" nowrap=\"\" bgcolor=\"#FFFFFF\"><h4>Été</h4><br><strong>Semaine</strong><br>De 8h à 18h<br><strong>Fin de semaine</strong><br>De 8h à 18h </td><td width=\"100px\" valign=\"top\" nowrap=\"\" bgcolor=\"#FFFFFF\"><h4>Automne</h4><br><strong>Semaine</strong><br>Accueil fermé *<br><strong>Fin de semaine</strong><br>De 9h à 16h30</td><td width=\"100px\" valign=\"top\" nowrap=\"\" bgcolor=\"#FFFFFF\"><h4>Hiver</h4><br><strong>Semaine</strong><br>Accueil fermé *<br><strong>Fin de semaine</strong><br>De 9h à 16h30</td></tr></tbody></table><p>*Lorsque cet accueil est fermé, vous devez payer votre droit d'accès au <a href=\"#bat\">Bureau d'Accueil Principal</a>.</p>", "image": "img/accueil_shannahan.jpg" }, "geometry": { "type": "Point", "coordinates": [ -71.890277801254129, 47.074798583847958 ] } }
+,
+{ "type": "Feature", "id": 26, "properties": { "id": null, "nom": "Chalet Camp de Base", "type": "CHA", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.894804788331811, 47.072776282243574 ] } }
+,
+{ "type": "Feature", "id": 27, "properties": { "id": null, "nom": "Cap Bédard", "type": "BEL", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.838667365584584, 47.064543288326547 ] } }
+,
+{ "type": "Feature", "id": 28, "properties": { "id": null, "nom": "Refuge des Falaises", "type": "REF", "alt_m": null, "com": null }, "geometry": { "type": "Point", "coordinates": [ -71.853936670359204, 47.068921849598496 ] } }
+
+]
+}

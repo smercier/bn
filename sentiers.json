@@ -1,0 +1,182 @@
+var sentiersjson = {
+                                                                                
+"sentiers": [
+{ 
+	"nom": "Sentier du Bras-du-Nord", 
+	"distance": "18 km", 
+	"temps_estime_ete": "6 à 9 heures", 
+	"denivellation": "350 mètres", 
+	"difficulte": "Considéré difficile à parcourir au complet en une seule journée", 
+	"description": "Nous vous proposons  ici la description de ce sentier de 21 km en quatre étapes du sud au nord soit de l’accueil Cantin à l’accueil Shannahan",
+	"trajet": [8,6,23,24,41,42,40,25,30,26,27,28,5,1],
+	"etapes": [
+	{
+		"nom": "1er étape: de l'accueil Cantin au refuge le Montagne Art",
+		"distance": "3.5 km",
+		"temps_estime_ete": "2 heures",
+		"denivellation": "300 mètres", 
+		"difficulte": "Moyen", 
+		"description": "",
+		"trajet": [8,6,23,24]
+	},
+	{
+		"nom": "2e étape: du refuge le Montagne Art au refuge La Yourte",
+		"distance": "9 km",
+		"temps_estime_ete": "4 à 8 heures",
+		"denivellation": "150 mètres", 
+		"difficulte": "Moyen à difficile", 
+		"description": "",
+		"trajet": [41,42]
+	},
+	{
+		"nom": "3e étape: refuge Montagne Art au pied de la chute Delaney",
+		"distance": "2 km",
+		"temps_estime_ete": "1 heure",
+		"denivellation": "-200 mètres", 
+		"difficulte": "Moyen", 
+		"description": "",
+		"trajet": [40,25,30]
+	},
+	{
+		"nom": "4e étape: du pied de la chute Delaney à l'accueil Shannahan",
+		"distance": "4 km",
+		"temps_estime_ete": "1 heure",
+		"denivellation": "20 mètres", 
+		"difficulte": "Facile", 
+		"description": "",
+		"trajet": [26,27,28,5,1]
+	}
+	]
+},
+{ 
+	"nom": "Sentier de la Mauvaise", 
+	"distance": "8.5 km", 
+	"temps_estime_ete": "4 heures", 
+	"denivellation": "370 mètres", 
+	"difficulte": "Moyen", 
+	"description": "",
+	"trajet": [9,22,8],
+	"etapes": [
+	]
+},
+{ 
+	"nom": "Sentier des Falaises", 
+	"distance": "15 km", 
+	"temps_estime_ete": "3 à 4 heures (aller)", 
+	"denivellation": "500 mètres", 
+	"difficulte": "Difficile", 
+	"description": "",
+	"trajet": [17,34,36,37,35,36,18,17],
+	"etapes": [
+		{
+		"nom": "1er étape: de l'accueil Shannahan au refuge des Falaises",
+		"distance": "4.5 km",
+		"temps_estime_ete": "2 heures",
+		"denivellation": "400 mètres", 
+		"difficulte": "Difficile", 
+		"description": "",
+		"trajet": [17,34]
+		},
+		{
+		"nom": "2e étape: du refuge des Falaises au Cap Bédard",
+		"distance": "2 km",
+		"temps_estime_ete": "1 heures",
+		"denivellation": "50 mètres", 
+		"difficulte": "Moyen", 
+		"description": "",
+		"trajet": [36,37]
+		},
+		{
+		"nom": "3e étape: du Cap Bédard au refuge des Falaises (par la boucle)",
+		"distance": "4.5 km",
+		"temps_estime_ete": "2 heures",
+		"denivellation": "-50 mètres", 
+		"difficulte": "Moyen", 
+		"description": "",
+		"trajet": [35,36]
+		},
+		{
+		"nom": "4e étape: du refuge des Falaises à l'accueil Shannahan (par le sentier du petit Bûcher)",
+		"distance": "4.5 km",
+		"temps_estime_ete": "2 heures",
+		"denivellation": "-400 mètres", 
+		"difficulte": "Moyen", 
+		"description": "",
+		"trajet": [18,17]
+		}
+	]
+},
+{ 
+	"nom": "Sentier du Montagne Art", 
+	"distance": "6.5 km", 
+	"temps_estime_ete": "2 à 5 heures", 
+	"denivellation": "370 mètres", 
+	"difficulte": "Moyen", 
+	"description": "",
+	"trajet": [8,22,21,23,6,8],
+	"etapes": [
+	]
+},
+{ 
+	"nom": "Sentier de la Hauteur", 
+	"distance": "6.5 km", 
+	"temps_estime_ete": "3 heures", 
+	"denivellation": "200 mètres", 
+	"difficulte": "Moyen", 
+	"description": "",
+	"trajet": [1,31,3,2,31,1],
+	"etapes": [
+	]
+},
+{ 
+	"nom": "Sentier des Castors", 
+	"distance": "3.5 km (aller)", 
+	"temps_estime_ete": "2 heures (aller)", 
+	"denivellation": "30 mètres", 
+	"difficulte": "Facile", 
+	"description": "",
+	"trajet": [1,31,3,32,33],
+	"etapes": [
+	]
+},
+{ 
+	"nom": "Sentier du Philosore", 
+	"distance": "25 km", 
+	"temps_estime_ete": "Non-recommandé en une seule journée", 
+	"denivellation": "260 mètres", 
+	"difficulte": "Moyen", 
+	"description": "",
+	"trajet": [10,38,39,19,20],
+	"etapes": [
+	{
+		"nom": "1er étape: de l'accueil Perthuis au refuge le Philosore",
+		"distance": "7.5 km",
+		"temps_estime_ete": "3 heures",
+		"denivellation": "200 mètres", 
+		"difficulte": "Moyen", 
+		"description": "",
+		"trajet": [10]
+	},	
+	{
+		"nom": "2e étape: du refuge le Philosore au refuge l'Orignal",
+		"distance": "10 km",
+		"temps_estime_ete": "4 heures",
+		"denivellation": "200 mètres", 
+		"difficulte": "Moyen", 
+		"description": "",
+		"trajet": [38]
+	},
+	{
+		"nom": "3e étape: du refuge l'Orignal à l'accueil Mauvaise",
+		"distance": "8 km",
+		"temps_estime_ete": "3 heures",
+		"denivellation": "230 mètres", 
+		"difficulte": "Moyen", 
+		"description": "",
+		"trajet": [39,19,20]
+	}
+	]
+}
+
+]
+}

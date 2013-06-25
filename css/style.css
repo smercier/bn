@@ -1,0 +1,59 @@
+html,
+body {
+	width: 100%;
+    height: 100%;
+    margin: -0.01%;
+}
+
+body {
+    font-family: "Lucida Grande", Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    color: #222;
+    background: #fff;
+    overflow: hidden;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin:5px;
+}
+
+#chart {
+    display: none;
+    bottom: 0;
+    opacity: 1;
+    padding: 0 10px 5px 0;
+    position: absolute;
+    right: 0;
+    z-index: 999;
+}
+
+#slider {
+    opacity: 0.3;
+    height:2px;
+    bottom: 15px;
+    padding: 0 10px 10px 0;
+    position: absolute;
+    right: 20px;
+    z-index: 999;
+}
+
+#sentiers {
+    top: 0;
+    padding: 0 10px 10px 0;
+    position: absolute;
+    right: 0;
+    z-index: 999;
+    width: 25%;
+}
+
+.ui-slider-handle.ui-state-default.ui-corner-all {
+    background: none repeat scroll 0 0 #111111;
+}
+
+td h4,
+div.leaflet-popup-content h3 {
+    margin-bottom: 0;
+}
